@@ -1,4 +1,4 @@
-# HR-PULSE: Human Resource Management System
+HR-PULSE: Human Resource Management System
 
 A comprehensive, role-based Human Resource Management System built with modern web technologies. HR-PULSE streamlines employee management, attendance tracking, internship management, and performance reporting with a user-friendly interface.
 
@@ -9,7 +9,7 @@ A comprehensive, role-based Human Resource Management System built with modern w
 
 ---
 
-## 📋 Table of Contents
+Table of Contents
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -26,31 +26,30 @@ A comprehensive, role-based Human Resource Management System built with modern w
 - [License](#license)
 
 ---
+Features
 
-## ✨ Features
-
-### Role-Based Access Control
+Role-Based Access Control
 - **Super Admin**: System configuration and user management
 - **HR Manager**: Employee management, company administration
 - **Manager**: Team management and task assignment
 - **Employee**: Personal dashboard, attendance, and reporting
 - **Intern**: Limited access - attendance and task viewing
 
-### Core Functionalities
+Core Functionalities
 
-#### Employee Management
+Employee Management
 - Add, edit, and delete employee records
 - Upload and manage employee resumes and documents
 - Track employee details (ID, name, email, department, designation)
 - Employee database filtering and search
 
-#### Attendance Tracking
+Attendance Tracking
 - Daily attendance marking
 - View attendance history
 - Attendance reports and analytics
 - Multi-user attendance management
 
-#### Intern Management
+Intern Management
 - Separate intern database
 - Intern profile management
 - Intern task assignment
@@ -107,7 +106,7 @@ A comprehensive, role-based Human Resource Management System built with modern w
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 HR-PULSE/
@@ -177,7 +176,7 @@ HR-PULSE/
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - **Node.js** (v16 or higher)
@@ -224,7 +223,7 @@ mkdir -p public/uploads
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### MongoDB Connection
 The application uses Mongoose to connect to MongoDB. Update your connection string in `.env.local`:
@@ -247,7 +246,7 @@ TailwindCSS is configured in `tailwind.config.js`. Customize styles by modifying
 
 ---
 
-## 👥 User Roles & Permissions
+##  User Roles & Permissions
 
 ### 1. Super Admin
 - **Access**: Full system access
@@ -333,7 +332,7 @@ TailwindCSS is configured in `tailwind.config.js`. Customize styles by modifying
 
 ---
 
-## 📊 Database Models
+## Database Models
 
 ### Employee Model
 ```javascript
@@ -420,7 +419,7 @@ TailwindCSS is configured in `tailwind.config.js`. Customize styles by modifying
 
 ---
 
-## 🏃 Running the Application
+## Running the Application
 
 ### Development Mode
 ```bash
@@ -474,7 +473,7 @@ npm run lint
 
 ---
 
-## 📦 Package Details
+##  Package Details
 
 ### Key Dependencies
 | Package | Version | Purpose |
@@ -492,7 +491,7 @@ npm run lint
 
 ---
 
-## 🎯 Common Tasks
+##  Common Tasks
 
 ### Adding a New User Role
 1. Update User model schema to include new role in enum
@@ -544,7 +543,7 @@ npm run lint
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch: `git checkout -b feature/YourFeature`
@@ -560,7 +559,7 @@ This project is private and proprietary. All rights reserved by ROHITKINDARLE.
 
 ---
 
-## 📧 Contact & Support
+##  Contact & Support
 
 For issues, questions, or support:
 - GitHub: [@ROHITKINDARLE](https://github.com/ROHITKINDARLE)
@@ -568,7 +567,7 @@ For issues, questions, or support:
 
 ---
 
-## 🔄 Version History
+## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -576,7 +575,7 @@ For issues, questions, or support:
 
 ---
 
-## 🎓 Learning Resources
+##  Learning Resources
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [React Documentation](https://react.dev)
