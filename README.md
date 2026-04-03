@@ -88,5 +88,103 @@ Authentication:
 - bcrypt
 
 ---
+## Project Structure
 
+
+HR-PULSE/
+├── HRM-HB/
+│ ├── app/
+│ ├── pages/api/
+│ ├── models/
+│ ├── lib/
+│ ├── public/uploads/
+│ └── config files
+
+
+---
+
+## Installation and Setup
+
+1. Clone repository
+```bash
+git clone https://github.com/ROHITKINDARLE/HR-PULSE.git
+cd HR-PULSE/HRM-HB
+Install dependencies
+npm install
+Create .env.local file
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_secret
+Run the project
+npm run dev
+API Endpoints
+GET /api/employees
+POST /api/employees
+GET /api/interns
+POST /api/interns
+POST /api/attendance
+GET /api/reports
+Database Models
+
+Employee:
+
+employeeId
+name
+email
+department
+designation
+resumeUrl
+
+User:
+
+name
+email
+username
+role
+companyId
+
+Attendance:
+
+userId
+date
+status
+
+Intern:
+
+internId
+name
+department
+mentor
+Running the Application
+
+Development:
+
+npm run dev
+
+Build:
+
+npm run build
+
+Start:
+
+npm start
+File Upload Feature
+Upload resumes and documents
+Stored in public/uploads
+Managed using Formidable
+Contributing
+Fork repository
+Create a branch
+Commit changes
+Push changes
+Create a pull request
+License
+
+Private project. All rights reserved.
+
+Author
+
+Rohit Kindarle
+GitHub: https://github.com/ROHITKINDARLE
+
+LinkedIn: https://www.linkedin.com/in/rohit-kindarle-247742284
 
